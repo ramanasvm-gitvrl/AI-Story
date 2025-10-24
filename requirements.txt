@@ -4,3 +4,4 @@ gtts
 requests
 pillow
 ffmpeg-python
+dotenv

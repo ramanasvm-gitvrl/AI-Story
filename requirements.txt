@@ -1,0 +1,6 @@
+streamlit
+openai
+gtts
+requests
+pillow
+ffmpeg-python

@@ -177,14 +177,14 @@ if st.button("🚀 Generate Story Audio/Video"):
         st.success("✅ Story Generated!")
         st.write(story)
 
-        st.info("🔑 Extracting illustration keywords...")
+        #st.info("🔑 Extracting illustration keywords...")
         keywords = extract_keywords_from_story(story)
         
         progress.progress(50)
 
         image_files = []
         if keywords:
-            st.info("🎨 Generating illustrations...")
+            #st.info("🎨 Generating illustrations...")
             for i, kw in enumerate(keywords):
                 img = fetch_image_pollinations(kw, story, i)
                 if img:
@@ -217,3 +217,4 @@ if st.button("🚀 Generate Story Audio/Video"):
                 st.error("❌ Failed to generate slideshow video.")
         else:
             st.warning("⚠️ Missing images or audio. Cannot create slideshow.")
+

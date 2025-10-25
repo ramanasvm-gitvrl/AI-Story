@@ -1,10 +1,8 @@
 streamlit
-openai
+openai>=1.0.0
 gtts
 requests
 pillow
-ffmpeg-python
-dotenv
-moviepy
-PIL
-Image
+moviepy==1.0.3
+imageio[ffmpeg]
+

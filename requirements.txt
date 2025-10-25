@@ -6,3 +6,5 @@ pillow
 ffmpeg-python
 dotenv
 moviepy
+PIL
+Image

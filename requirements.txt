@@ -1,10 +1,8 @@
-streamlit
+streamlit==1.39.0
 openai>=1.0.0
-gtts
-requests
-pillow
+gtts==2.5.1
+requests==2.32.3
+pillow==10.4.0
 moviepy==1.0.3
 imageio[ffmpeg]
 dotenv
-ffmpeg
-
